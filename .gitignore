@@ -1,0 +1,164 @@
+```gitignore
+# ============================================================
+# Python
+# ============================================================
+
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ============================================================
+# Virtual environments
+# ============================================================
+
+.venv/
+venv/
+env/
+ENV/
+.ENV/
+virtualenv/
+.conda/
+
+# ============================================================
+# Python tools
+# ============================================================
+
+# pytest
+.pytest_cache/
+
+# coverage
+.coverage
+.coverage.*
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# Ruff
+.ruff_cache/
+
+# Pylint
+.pylint.d/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# ============================================================
+# IDE / Editor
+# ============================================================
+
+# Visual Studio Code
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+
+# ============================================================
+# OS generated files
+# ============================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+
+# ============================================================
+# Environment / secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+# ============================================================
+# Logs
+# ============================================================
+
+*.log
+logs/
+
+# ============================================================
+# Temporary files
+# ============================================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# ============================================================
+# Build / cache
+# ============================================================
+
+.cache/
+.pytest_cache/
+
+# ============================================================
+# Local data
+# Uncomment these if CSV files should NOT be committed.
+# ============================================================
+
+# *.csv
+# data/
+# output/
+
+# ============================================================
+# Project-specific
+# ============================================================
+
+# Generated output
+output/
+
+# Local test data
+test_data/
+```
+
